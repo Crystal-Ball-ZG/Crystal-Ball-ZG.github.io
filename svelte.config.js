@@ -6,6 +6,7 @@ const config = {
 		target: '#svelte',
 		//adapter: node(),
 		adapter: static_adapter(),
+		appDir: "app",
 	}
 };
 

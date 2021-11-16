@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Zeitgeist Seer program</h1>
+<p>Site is currently under construction so please. Visit <a href="https://zeitgeist-seer.com/">zeitgeist-seer.com</a> to read more and participate.</p>

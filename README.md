@@ -1,20 +1,7 @@
-# create-svelte
+#Frontend for Seer program
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Sveltekit based frontend using UnoCSS as a CSS engine to be deployed in Github Pages. Example at [svelte-kit-blog-demo](https://github.com/svelteland/svelte-kit-blog-demo)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
 
 ## Developing
 
@@ -33,6 +20,7 @@ Before creating a production version of your app, install an [adapter](https://k
 
 ```bash
 npm run build
+npm run deploy
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
