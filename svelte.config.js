@@ -2,7 +2,7 @@ import { mdsvex } from "mdsvex";
 import mdsvexConfig from "./mdsvex.config.js";
 import preprocess from "svelte-preprocess";
 import static_adapter from "@sveltejs/adapter-static";
-import Unocss from 'unocss/vite'
+import Unocss from "unocss/vite";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -29,16 +29,18 @@ const config = {
         // readme https://github.com/antfu/unocss
         Unocss({
           presets: [
-            presetAttributify({ /* preset options */}),
+            presetAttributify({
+              /* preset options */
+            }),
             presetUno(),
             // ...custom presets
           ],
           rules: [
             // custom rules if we want more inline classes outside of windicss
-          ]
-        })
-      ]
-    }
+          ],
+        }),
+      ],
+    },
   },
 };
 
