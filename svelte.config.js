@@ -22,8 +22,8 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			//      assets: "/seer/assets",
-			//      base: "/seer",
+			assets: '/Crystal-Ball-ZG.github.io',
+			base: '/Crystal-Ball-ZG.github.io'
 		},
 		vite: {
 			plugins: [
