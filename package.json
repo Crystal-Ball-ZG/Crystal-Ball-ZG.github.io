@@ -5,13 +5,28 @@
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
-		"deploy": "npm run build && npx gh-pages -d build"    
+    "deploy": "node ./gh-pages.js",
+    "check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. .",
+    "clean": "trash build",
+		"check-updates": "npx npm-check-updates",
+		"check-updates:minor": "npx npm-check-updates --target minor",
+		"check-updates:patch": "npx npm-check-updates --target patch"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.21",
     "@sveltejs/kit": "next",
     "gh-pages": "^3.2.3",
-    "svelte": "^3.42.6"
+    "prettier": "~2.4.1",
+		"prettier-plugin-svelte": "^2.5.0",
+		"prism-themes": "^1.9.0",
+		"prismjs": "^1.25.0",
+    "svelte": "^3.44.1",
+		"svelte-check": "^2.2.9",
+		"svelte-preprocess": "^4.9.8",
+    "trash-cli": "^4.0.0"
   },
   "type": "module"
 }
