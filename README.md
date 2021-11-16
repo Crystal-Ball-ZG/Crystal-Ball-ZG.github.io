@@ -2,7 +2,6 @@
 
 Sveltekit based frontend using UnoCSS as a CSS engine to be deployed in Github Pages. Example at [svelte-kit-blog-demo](https://github.com/svelteland/svelte-kit-blog-demo)
 
-
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
