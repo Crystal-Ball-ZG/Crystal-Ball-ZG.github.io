@@ -3,6 +3,7 @@ import mdsvexConfig from "./mdsvex.config.js";
 import preprocess from "svelte-preprocess";
 import static_adapter from "@sveltejs/adapter-static";
 import Unocss from "unocss/vite";
+import { presetAttributify, presetUno } from "unocss";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -21,8 +22,8 @@ const config = {
       fallback: null,
     }),
     paths: {
-      assets: "/seer",
-      base: "/seer",
+//      assets: "/seer/assets",
+//      base: "/seer",
     },
     vite: {
       plugins: [
